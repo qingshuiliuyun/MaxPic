@@ -20,10 +20,26 @@ Window {
             console.debug(mouseX,mouseY);
         }
     }
-    MouseArea {
+
+
+    Rectangle {
+        id:attitude
+        x: 0
+        y: 0
+        width: 300
+        height: parent.height
+        color: "yellow"
+        opacity: 0.7
+
+
+        clip: true
+
+
+
+
+
 
     }
-
 
 
     Rectangle {
@@ -52,6 +68,10 @@ Window {
            }
            MenuItem {
                text:"select"
+               onTriggered: Qt.quit()
+           }
+           MenuItem {
+               text:"select1"
                onTriggered: Qt.quit()
            }
        }
