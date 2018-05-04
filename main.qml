@@ -50,6 +50,10 @@ Window {
                text: "退出程序"
                onTriggered: Qt.quit()
            }
+           MenuItem {
+               text:"select"
+               onTriggered: Qt.quit()
+           }
        }
 
        MouseArea {
