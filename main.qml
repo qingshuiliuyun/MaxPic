@@ -54,6 +54,10 @@ Window {
                text:"select"
                onTriggered: Qt.quit()
            }
+           MenuItem {
+               text:"select1"
+               onTriggered: Qt.quit()
+           }
        }
 
        MouseArea {
