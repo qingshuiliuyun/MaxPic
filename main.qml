@@ -35,7 +35,15 @@ Window {
         clip: true
 
 
-
+       Rectangle {
+           id:attitude1
+           x: 10
+           y: 10
+           width: parent.width -20
+           height: parent.width -20
+           color: "blue"
+           opacity: 0.7
+       }
 
 
 
