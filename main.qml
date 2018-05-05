@@ -7,7 +7,7 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: qsTr("MaxPic")
+    title: qsTr("MaxPic_20180505")
 
 
 
